@@ -1,0 +1,33 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 0 auto;
+  text-align: center;
+  /* background: rgba(16, 56, 79, 1); */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1.2rem;
+  /* flex: 1 1 auto; */
+  
+}
+
+.form--wrapper {
+  
+  margin: 40px 0;
+}
+
+.form--error {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
