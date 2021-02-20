@@ -157,7 +157,7 @@ export default class FormPasswordReset extends Component {
                   variant="raised"
                   color="primary"
                   disabled={Boolean(!isValid || isSubmitting)}
-                  style={{ margin: "1rem" }}
+                  style={{ margin: "1rem", background: '#10384F',color: '#FFF', marginTop: '2rem' }}
                 >
                   {"Redefinir Senha"}
                 </Button>

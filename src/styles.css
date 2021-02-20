@@ -29,7 +29,7 @@
 
 }
 
-.App p {
+.App > p {
   color      : #fff;
   font-size  : 1.6rem;
   padding    : 1rem;
