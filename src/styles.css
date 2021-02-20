@@ -1,33 +1,77 @@
 .App {
-  height: 100vh;
-  display: flex;
+  height        : 100vh;
+  display       : flex;
   flex-direction: column;
-  align-items: center;
-  flex: 1 0 auto;
-  text-align: center;
-  /* background: rgba(16, 56, 79, 1); */
+  align-items   : center;
+  flex          : 1 0 auto;
+  text-align    : center;
+  background    : rgba(16, 56, 79, 1);
+}
+
+.App img {
+  height: 15vmin;
+  margin: .5rem;
+}
+
+.App h2 {
+  font-size     : 1.3rem;
+  font-weight   : 400;
+  color         : #000;
+  display       : flex;
+  flex-direction: row;
+  align-items   : center;
+}
+
+.App header {
+  display        : flex;
+  flex-direction : row;
+  justify-content: space-between;
+
+}
+
+.App p {
+  color      : #fff;
+  font-size  : 1.6rem;
+  padding    : 1rem;
+  font-weight: 600;
+  position   : relative;
+  top        : 1rem;
+  text-align : left;
+  line-height: 1.3
 }
 
 .form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 1.2rem;
-  /* flex: 1 1 auto; */
-  
+  display        : flex;
+  flex-direction : column;
+  justify-content: flex-start;
+  align-items    : center;
+  width          : 100%;
+  padding        : 1rem;
+  flex           : 1 1 auto;
+  position       : relative;
+
 }
 
 .form--wrapper {
-  
+
   margin: 40px 0;
 }
 
 .form--error {
-  display: flex;
+  display       : flex;
   flex-direction: row;
-  align-items: center;
-  width: 100%;
+  align-items   : center;
+  width         : 100%;
 }
 
+.App .bayer__bottom {
+  display        : flex;
+  width          : 100%;
+  border         : 2px solid #89D329;
+  height         : 10px;
+  position       : absolute;
+  bottom         : 37px;
+  height         : .1rem;
+  justify-content: center;
+
+}

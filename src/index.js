@@ -9,39 +9,32 @@ import Typography from '@material-ui/core/Typography'
 
 import FormPasswordReset from './components/FormPasswordReset/FormPasswordReset'
 import './styles.css'
-
+import logo from './LogoBayer.svg'
 
 const theme = createMuiTheme({
   palette: {
-    type: 'light',
+    type: 'light'
+   
   },
 });
 
-const title = {
-    fontSize: '1.5rem',
-    fontWeight: 300,
-    padding: '1rem',
-    color: '#fff', 
-    textAlign: 'left'
-
-  }
 
 function App() {
   return (
     <div className="App">
-    <AppBar color="secondary" position="static" style={{background: '#10384F'}}>
-    <Typography variant="title" style={title}>
-        Redefinir Senha
-      </Typography>
-
+    <AppBar color="colorPrimary-1" position="static" >
+      <Typography variant="title">
+        <img src={logo} className="bayer-logo" alt="logo" />
+          Redefinir Senha
+        </Typography>
     </AppBar>
-    <br />
-      <Typography style={{fontSize: '1.4rem', padding: '1rem',fontWeight: '400'}}>
+    
+      <Typography>
         Olá, para redefinição de senha preencha os 
         campos abaixo.
       </Typography>
-      
       <FormPasswordReset />
+      <div className="bayer__bottom"></div>
     </div>
   )
 }

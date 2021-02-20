@@ -168,5 +168,6 @@ export default class FormPasswordReset extends Component {
         }}
       />
     );
+          
   }
 }
